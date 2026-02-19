@@ -1,0 +1,328 @@
+{
+  "nav": {
+    "home": "Início",
+    "services": "Serviços",
+    "about": "Sobre",
+    "contact": "Contacto",
+    "cta": "Pedir proposta"
+  },
+  "header": {
+    "tagline": "Fiduciária & Consultoria",
+    "closeMenu": "Fechar menu",
+    "openMenu": "Abrir menu",
+    "mainNav": "Navegação principal",
+    "mobileNav": "Navegação mobile",
+    "megaMenu": {
+      "col1Title": "Expertise financeira",
+      "col2Title": "Consultoria & Desenvolvimento",
+      "featuredTitle": "Todos os nossos serviços",
+      "featuredDesc": "Acompanhamento completo para cada dimensão da sua empresa.",
+      "featuredCta": "Ver serviços"
+    }
+  },
+  "hero": {
+    "overline": "Fiduciária & Consultoria Empresarial",
+    "baseline": "O seu parceiro de confiança para gestão, fiscalidade e crescimento do seu negócio na Suíça francófona.",
+    "ctaSecondary": "Descobrir os nossos serviços",
+    "scroll": "Descobrir"
+  },
+  "features": {
+    "overline": "Porquê escolher-nos",
+    "titleMain": "O nosso compromisso",
+    "titleAccent": "ao seu lado",
+    "items": [
+      {
+        "title": "Experiência reconhecida",
+        "description": "Mais de 15 anos de experiência ao serviço de PME na Suíça francófona. Conselhos comprovados, visão estratégica apurada e profundo domínio do enquadramento legal suíço."
+      },
+      {
+        "title": "Abordagem personalizada",
+        "description": "Cada cliente é único. Construímos uma relação de confiança duradoura e adaptamos as nossas soluções aos seus desafios específicos, independentemente da dimensão da sua estrutura."
+      },
+      {
+        "title": "Confidencialidade absoluta",
+        "description": "A discrição está no centro do nosso trabalho. Os seus dados e projetos são tratados com o máximo cuidado e no estrito respeito pela confidencialidade profissional."
+      }
+    ]
+  },
+  "services": {
+    "overline": "O que fazemos",
+    "titleMain": "As nossas áreas",
+    "titleAccent": "de especialização",
+    "subtitle": "Acompanhamento completo em todas as etapas da vida da sua empresa.",
+    "cta": "Ver todos os serviços",
+    "pageOverline": "Os nossos serviços",
+    "pageTitle1": "Os nossos",
+    "pageTitle2": "Serviços",
+    "pageSubtitle": "Acompanhamento à medida para cada dimensão financeira, fiscal e administrativa da sua empresa.",
+    "promiseOverline": "A nossa promessa",
+    "promiseTitle": "Um escritório à escala humana, uma expertise de alto nível",
+    "promiseText": "Na SRD Partners, acreditamos que cada empreendedor merece um parceiro fiduciário verdadeiramente empenhado ao seu lado — e não apenas um prestador de serviços. As nossas equipas combinam competência técnica e disponibilidade para lhe oferecer um acompanhamento personalizado, reativo e confidencial.",
+    "promiseCta1": "Entrar em contacto",
+    "promiseCta2": "Conhecer a equipa",
+    "items": [
+      {
+        "title": "Contabilidade & Fiscalidade",
+        "shortDesc": "Registo contabilístico, fecho anual e otimização fiscal.",
+        "longDesc": "Assumimos toda a sua contabilidade: lançamento de documentos, reconciliações bancárias, fecho de contas anuais, declarações de IVA e otimização da carga fiscal. Os nossos especialistas garantem total conformidade com as exigências legais e fiscais suíças."
+      },
+      {
+        "title": "Consultoria de gestão",
+        "shortDesc": "Gestão financeira, dashboards e estratégia empresarial.",
+        "longDesc": "Apoiamos os líderes nas decisões estratégicas: análise financeira, implementação de dashboards personalizados, planeamento orçamental, avaliação de empresas e consultoria de desenvolvimento. Transforme os seus dados financeiros em verdadeiras alavancas de crescimento."
+      },
+      {
+        "title": "Auditoria & Revisão",
+        "shortDesc": "Controlo de contas, revisão limitada e auditoria restrita.",
+        "longDesc": "Os nossos serviços de auditoria oferecem um olhar independente e rigoroso sobre as suas demonstrações financeiras. Realizamos revisões limitadas e auditorias restritas de acordo com as normas suíças de auditoria, garantindo transparência e credibilidade junto dos seus parceiros financeiros e institucionais."
+      },
+      {
+        "title": "Planeamento patrimonial",
+        "shortDesc": "Estruturação do património, sucessão e previdência.",
+        "longDesc": "Antecipe o futuro com tranquilidade. Aconselhamos na estruturação do seu património privado e profissional, no planeamento sucessório, na otimização da sua previdência (2.º e 3.º pilar) e na proteção da sua família e dos seus ativos a longo prazo."
+      },
+      {
+        "title": "Criação de empresa",
+        "shortDesc": "Acompanhamento completo da ideia ao registo.",
+        "longDesc": "Dê vida ao seu projeto empreendedor com o apoio dos nossos especialistas. Escolha da forma jurídica adequada, redação dos estatutos, registo no Registo Comercial, abertura de contas bancárias e implementação administrativa e contabilística: gerimos cada etapa consigo."
+      },
+      {
+        "title": "RH & Folha salarial",
+        "shortDesc": "Gestão salarial, seguros sociais e direito do trabalho.",
+        "longDesc": "Externalize a gestão de pessoal com os nossos especialistas de RH. Processamento de salários, declarações aos seguros sociais (AHV/AVS, LPP, LAA), gestão de contratos de trabalho, acompanhamento de ausências e férias, e monitorização regulatória contínua: libertamos-lhe das tarefas administrativas."
+      }
+    ]
+  },
+  "process": {
+    "overline": "A nossa abordagem",
+    "titleMain": "Um acompanhamento",
+    "titleAccent": "estruturado",
+    "deliverablesLabel": "Entregáveis",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Primeiro contacto",
+        "description": "Dedicamos tempo a compreender a sua situação, objetivos e condicionantes. Uma reunião inicial sem compromisso permite-lhe expor as suas necessidades e conhecer a nossa abordagem.",
+        "deliverables": ["Diagnóstico inicial", "Proposta à medida", "Orçamento transparente"]
+      },
+      {
+        "number": "02",
+        "title": "Análise & Estratégia",
+        "description": "Os nossos especialistas analisam a sua situação financeira, fiscal e administrativa em profundidade. Definimos juntos a estratégia ideal para atingir os seus objetivos nas melhores condições.",
+        "deliverables": ["Relatório de análise", "Plano de ação detalhado", "Calendário de execução"]
+      },
+      {
+        "number": "03",
+        "title": "Implementação",
+        "description": "Executamos o plano de ação com rigor e nos prazos acordados. Beneficia de acompanhamento regular e comunicação proativa em cada etapa-chave da missão.",
+        "deliverables": ["Dossiers conformes", "Declarações submetidas", "Relatórios intercalares"]
+      },
+      {
+        "number": "04",
+        "title": "Acompanhamento contínuo",
+        "description": "O nosso compromisso não termina com a missão inicial. Permanecemos como seu parceiro quotidiano, disponíveis para responder às suas questões e antecipar as evoluções da sua situação.",
+        "deliverables": ["Monitorização regulatória", "Revisões periódicas", "Aconselhamento permanente"]
+      }
+    ]
+  },
+  "testimonials": {
+    "overline": "Confiam em nós",
+    "title": "O que dizem os nossos clientes",
+    "items": [
+      {
+        "quote": "A SRD Partners transformou a nossa abordagem financeira. Graças à sua competência, otimizámos de forma significativa a nossa carga fiscal e ganhámos maior visibilidade sobre o desempenho.",
+        "author": "Sr. Durand",
+        "role": "Diretor-geral, PME industrial",
+        "initials": "JD"
+      },
+      {
+        "quote": "Uma equipa reativa, disponível e de rigor exemplar. Desde que lhes confiámos a contabilidade, conseguimos focar-nos totalmente no nosso core business.",
+        "author": "Sra. Laurent",
+        "role": "Gerente, empresa de serviços",
+        "initials": "ML"
+      },
+      {
+        "quote": "O acompanhamento na criação da nossa empresa foi irrepreensível. Profissionais pedagógicos e disponíveis, que anteciparam cada etapa com clareza.",
+        "author": "Sr. & Sra. Favre",
+        "role": "Fundadores, start-up tecnológica",
+        "initials": "FF"
+      }
+    ]
+  },
+  "faq": {
+    "overline": "Perguntas frequentes",
+    "titleMain": "As suas perguntas,",
+    "titleAccent": "as nossas respostas",
+    "subtitle": "Tudo o que precisa de saber antes de nos confiar o seu dossier.",
+    "items": [
+      {
+        "question": "Quanto custa uma declaração de impostos?",
+        "answer": "Os nossos honorários dependem da complexidade da sua situação fiscal e do tipo de declaração em causa (pessoa singular, empresa, sucessão). Elaboramos sistematicamente um orçamento transparente antes de qualquer missão. Não hesite em contactar-nos para uma reunião preliminar sem compromisso."
+      },
+      {
+        "question": "Que documentos devo fornecer?",
+        "answer": "A lista varia consoante o seu perfil, mas inclui geralmente: certificados de salário, extratos bancários e de previdência, atestados de seguro, títulos de propriedade e todos os documentos relativos aos seus rendimentos e deduções. Após uma primeira conversa, enviamos-lhe uma lista personalizada e precisa."
+      },
+      {
+        "question": "Quanto tempo demora o tratamento?",
+        "answer": "Para uma declaração fiscal padrão, conte em média 2 a 4 semanas após a receção de todos os documentos. Os processos mais complexos são tratados com um calendário definido antecipadamente consigo. Informamo-lo em cada etapa-chave do processo."
+      },
+      {
+        "question": "Posso marcar uma reunião?",
+        "answer": "Absolutamente. Oferecemos reuniões presenciais em Genebra ou Lausanne, bem como consultas por videoconferência. A primeira reunião é sem compromisso e permite-lhe expor a sua situação com toda a tranquilidade. Contacte-nos através do formulário ou por telefone para combinar um horário adequado."
+      },
+      {
+        "question": "É confidencial?",
+        "answer": "A confidencialidade é um princípio fundamental da nossa profissão. Todas as informações que nos confia são protegidas pelo segredo profissional e tratadas com a maior discrição. Os seus dados nunca são partilhados com terceiros sem o seu consentimento explícito."
+      }
+    ]
+  },
+  "about": {
+    "overline": "O escritório",
+    "title1": "Sobre",
+    "title2": "nós",
+    "subtitle": "Fundada por profissionais apaixonados da Suíça francófona, a SRD Partners é muito mais do que uma fiduciária: é um parceiro comprometido a longo prazo.",
+    "missionOverline": "A nossa missão",
+    "missionTitle": "Libertar os empreendedores da complexidade administrativa",
+    "missionP1": "Na SRD Partners, a nossa missão é simples: permitir-lhe focar-se no seu core business, enquanto nós zelamos pela saúde financeira, fiscal e administrativa da sua empresa.",
+    "missionP2": "Fundado há mais de 15 anos em Genebra, o nosso escritório acompanha PME, start-ups, independentes e famílias em toda a Suíça francófona. A nossa abordagem combina elevada competência técnica com uma relação humana privilegiada.",
+    "missionP3": "Não somos apenas prestadores: somos os seus parceiros, presentes em cada etapa importante da vida da sua empresa.",
+    "missionCta": "Marcar reunião",
+    "stats": {
+      "years": "Anos de experiência",
+      "clients": "Clientes acompanhados",
+      "experts": "Especialistas ao seu serviço",
+      "offices": "Escritórios na Suíça francófona"
+    },
+    "valuesOverline": "O que nos guia",
+    "valuesTitle": "Os nossos valores fundamentais",
+    "values": [
+      {
+        "title": "Rigor",
+        "description": "Cada dossier é tratado com a mesma exigência. A exatidão do nosso trabalho não é negociável."
+      },
+      {
+        "title": "Proximidade",
+        "description": "Tratamo-lo pelo primeiro nome. Tem um interlocutor dedicado, disponível e reativo."
+      },
+      {
+        "title": "Independência",
+        "description": "Os nossos conselhos são objetivos e formulados apenas no seu interesse, sem conflito de interesses."
+      },
+      {
+        "title": "Sustentabilidade",
+        "description": "Construímos relações de longo prazo, baseadas na confiança e na transparência."
+      }
+    ]
+  },
+  "team": {
+    "overline": "A nossa equipa",
+    "title": "Especialistas à sua escuta",
+    "subtitle": "Profissionais experientes, comprometidos com o seu trabalho e com a relação com o cliente.",
+    "members": [
+      {
+        "name": "Sophie Reinhart",
+        "role": "Sócia fundadora – Contabilista certificada",
+        "bio": "Licenciada em economia empresarial, Sophie dirige o escritório com 18 anos de experiência em auditoria e consultoria financeira para PME na Suíça francófona.",
+        "initials": "SR"
+      },
+      {
+        "name": "David Marchand",
+        "role": "Sócio – Consultoria fiscal & jurídica",
+        "bio": "Licenciado em direito e especialista fiscal acreditado, David acompanha os clientes na otimização da estrutura fiscal e em projetos de transmissão de empresas.",
+        "initials": "DM"
+      },
+      {
+        "name": "Isabelle Chopard",
+        "role": "Responsável de contabilidade",
+        "bio": "Com mais de 10 anos de experiência, Isabelle garante a precisão e a conformidade das demonstrações financeiras dos nossos clientes com atenção constante ao detalhe.",
+        "initials": "IC"
+      },
+      {
+        "name": "Raphaël Torres",
+        "role": "Consultor de RH & Folha salarial",
+        "bio": "Especialista em recursos humanos, Raphaël gere os dossiers de pessoal e assegura a conformidade social dos nossos clientes com rigor e discrição.",
+        "initials": "RT"
+      }
+    ]
+  },
+  "contact": {
+    "overline": "Vamos falar",
+    "title1": "Contactar",
+    "title2": "nos",
+    "subtitle": "A nossa equipa está disponível de segunda a sexta. Comprometemo-nos a responder em 24 horas úteis.",
+    "coordsOverline": "Contactos",
+    "coordsTitle": "Encontre-nos",
+    "emailLabel": "E-mail",
+    "phoneLabel": "Telefone",
+    "mainOfficeLabel": "Sede principal",
+    "lausanneOfficeLabel": "Escritório de Lausanne",
+    "hours": "Seg–Sex: 8:00–18:00",
+    "country": "Suíça",
+    "form": {
+      "overline": "Contacto",
+      "title": "Vamos falar do seu projeto",
+      "subtitle": "Preencha o formulário abaixo e responderemos em 24 horas úteis.",
+      "fullName": "Nome completo *",
+      "company": "Empresa",
+      "email": "Endereço de e-mail *",
+      "phone": "Telefone",
+      "subject": "Assunto *",
+      "subjectDefault": "Selecionar um assunto…",
+      "message": "Mensagem *",
+      "required": "* Campos obrigatórios",
+      "submit": "Enviar mensagem",
+      "submitting": "A enviar…",
+      "successTitle": "Mensagem enviada!",
+      "successMsg": "Obrigado pela sua mensagem. A nossa equipa irá contactá-lo em breve.",
+      "sendAnother": "Enviar outra mensagem",
+      "subjects": {
+        "accounting": "Contabilidade & Fiscalidade",
+        "consulting": "Consultoria de gestão",
+        "audit": "Auditoria & Revisão",
+        "patrimony": "Planeamento patrimonial",
+        "creation": "Criação de empresa",
+        "hr": "RH & Folha salarial",
+        "other": "Outro"
+      },
+      "errors": {
+        "name": "O seu nome é obrigatório.",
+        "email": "O seu e-mail é obrigatório.",
+        "emailInvalid": "Endereço de e-mail inválido.",
+        "subject": "O assunto é obrigatório.",
+        "message": "A sua mensagem é obrigatória."
+      },
+      "placeholders": {
+        "name": "Sophie Dupont",
+        "company": "A Minha Empresa Sàrl",
+        "email": "sophie@exemplo.ch",
+        "phone": "+41 79 000 00 00",
+        "message": "Descreva brevemente a sua necessidade…"
+      }
+    }
+  },
+  "footer": {
+    "navigation": "Navegação",
+    "services": "Serviços",
+    "contact": "Contacto",
+    "tagline": "Genebra • Lausanne • Suíça",
+    "rights": "Todos os direitos reservados."
+  },
+  "meta": {
+    "homeTitle": "SRD Partners Sàrl – Fiduciária & Consultoria Empresarial em Genebra",
+    "homeDescription": "Fiduciária em Genebra e Lausanne: contabilidade, fiscalidade, auditoria, consultoria de gestão e criação de empresa. A SRD Partners acompanha PME na Suíça francófona.",
+    "servicesTitle": "Os nossos serviços – SRD Partners Sàrl",
+    "servicesDescription": "Descubra todos os nossos serviços fiduciários: contabilidade, fiscalidade, auditoria, planeamento patrimonial, criação de empresa e gestão de RH & folha salarial.",
+    "aboutTitle": "Sobre – SRD Partners Sàrl",
+    "aboutDescription": "Conheça a equipa e os valores da SRD Partners, a sua fiduciária de confiança na Suíça francófona há mais de 15 anos.",
+    "contactTitle": "Contacto – SRD Partners Sàrl",
+    "contactDescription": "Contacte a SRD Partners para todas as suas necessidades fiduciárias. A nossa equipa está disponível em Genebra e Lausanne de segunda a sexta.",
+    "titleTemplate": "%s | SRD Partners"
+  },
+  "brand": {
+    "name": "SRD Partners",
+    "legal": "SRD Partners Sàrl",
+    "baseline": "O seu parceiro de confiança para gestão, fiscalidade e crescimento do seu negócio na Suíça francófona."
+  }
+}
+    

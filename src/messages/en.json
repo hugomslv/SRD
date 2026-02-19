@@ -1,0 +1,327 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Request a quote"
+  },
+  "header": {
+    "tagline": "Fiduciary & Advisory",
+    "closeMenu": "Close menu",
+    "openMenu": "Open menu",
+    "mainNav": "Main navigation",
+    "mobileNav": "Mobile navigation",
+    "megaMenu": {
+      "col1Title": "Financial expertise",
+      "col2Title": "Advisory & Development",
+      "featuredTitle": "All our services",
+      "featuredDesc": "Comprehensive support for every aspect of your business.",
+      "featuredCta": "View services"
+    }
+  },
+  "hero": {
+    "overline": "Fiduciary & Business Advisory",
+    "baseline": "Your trusted partner for management, taxation and the growth of your business in French-speaking Switzerland.",
+    "ctaSecondary": "Discover our services",
+    "scroll": "Explore"
+  },
+  "features": {
+    "overline": "Why choose us",
+    "titleMain": "Our commitment",
+    "titleAccent": "to you",
+    "items": [
+      {
+        "title": "Proven expertise",
+        "description": "Over 15 years of experience supporting SMEs in French-speaking Switzerland. Trusted advice, a sharp strategic vision and deep knowledge of the Swiss legal framework."
+      },
+      {
+        "title": "Personalized approach",
+        "description": "Every client is unique. We build a lasting relationship of trust and tailor our solutions to your specific challenges, whatever the size of your organization."
+      },
+      {
+        "title": "Absolute confidentiality",
+        "description": "Discretion is at the heart of our profession. Your data and projects are handled with the utmost care and in strict compliance with professional confidentiality."
+      }
+    ]
+  },
+  "services": {
+    "overline": "What we do",
+    "titleMain": "Our areas",
+    "titleAccent": "of expertise",
+    "subtitle": "Comprehensive support for every stage of your business journey.",
+    "cta": "View all our services",
+    "pageOverline": "Our services",
+    "pageTitle1": "Our",
+    "pageTitle2": "Services",
+    "pageSubtitle": "Tailor-made support for every financial, tax and administrative aspect of your business.",
+    "promiseOverline": "Our promise",
+    "promiseTitle": "A human-sized firm, top-level expertise",
+    "promiseText": "At SRD Partners, we believe every entrepreneur deserves a fiduciary partner fully committed at their side — not just a service provider. Our teams combine technical expertise and availability to offer you personalized, responsive and confidential support.",
+    "promiseCta1": "Get in touch",
+    "promiseCta2": "Meet the team",
+    "items": [
+      {
+        "title": "Accounting & Tax",
+        "shortDesc": "Bookkeeping, annual closing and tax optimization.",
+        "longDesc": "We handle your entire accounting: document entry, bank reconciliations, annual financial statements, VAT returns and tax burden optimization. Our experts ensure full compliance with Swiss legal and tax requirements."
+      },
+      {
+        "title": "Management consulting",
+        "shortDesc": "Financial steering, dashboards and business strategy.",
+        "longDesc": "We support business leaders in strategic decisions: financial analysis, implementation of custom dashboards, budget planning, business valuation and growth advisory. Turn your financial data into real growth levers."
+      },
+      {
+        "title": "Audit & Review",
+        "shortDesc": "Account review, limited review and restricted audit.",
+        "longDesc": "Our audit services provide an independent and rigorous view of your financial statements. We perform limited reviews and restricted audits in accordance with Swiss auditing standards, ensuring transparency and credibility with your financial and institutional partners."
+      },
+      {
+        "title": "Wealth planning",
+        "shortDesc": "Wealth structuring, succession and pension planning.",
+        "longDesc": "Plan ahead with peace of mind. We advise you on structuring your private and professional assets, succession planning, optimizing your pension arrangements (2nd and 3rd pillar) and protecting your family and assets over the long term."
+      },
+      {
+        "title": "Company formation",
+        "shortDesc": "End-to-end support from idea to registration.",
+        "longDesc": "Bring your entrepreneurial project to life with our experts. Choosing the right legal form, drafting articles, registration with the Commercial Register, bank account opening and setting up administrative and accounting processes: we manage every step with you."
+      },
+      {
+        "title": "HR & Payroll",
+        "shortDesc": "Payroll, social insurance and labor law support.",
+        "longDesc": "Outsource your personnel administration to our HR specialists. Payroll processing, social insurance declarations (AHV/AVS, LPP, LAA), employment contracts, absence and leave tracking, and continuous regulatory monitoring: we free you from administrative constraints."
+      }
+    ]
+  },
+  "process": {
+    "overline": "Our approach",
+    "titleMain": "A structured",
+    "titleAccent": "partnership",
+    "deliverablesLabel": "Deliverables",
+    "steps": [
+      {
+        "number": "01",
+        "title": "First contact",
+        "description": "We take the time to understand your situation, goals and constraints. A no-commitment initial meeting lets you present your needs and discover our approach.",
+        "deliverables": ["Initial assessment", "Tailored proposal", "Transparent quote"]
+      },
+      {
+        "number": "02",
+        "title": "Analysis & Strategy",
+        "description": "Our experts thoroughly analyse your financial, tax and administrative situation. Together we define the optimal strategy to achieve your objectives under the best conditions.",
+        "deliverables": ["Analysis report", "Detailed action plan", "Execution timeline"]
+      },
+      {
+        "number": "03",
+        "title": "Implementation",
+        "description": "We execute the action plan with rigour and within agreed deadlines. You receive regular updates and proactive communication at every key stage of the engagement.",
+        "deliverables": ["Compliant files", "Filed declarations", "Interim reports"]
+      },
+      {
+        "number": "04",
+        "title": "Ongoing support",
+        "description": "Our commitment does not end with the initial mandate. We remain your day-to-day partner, available to answer your questions and anticipate changes in your situation.",
+        "deliverables": ["Regulatory monitoring", "Periodic reviews", "Ongoing advice"]
+      }
+    ]
+  },
+  "testimonials": {
+    "overline": "They trust us",
+    "title": "What our clients say",
+    "items": [
+      {
+        "quote": "SRD Partners transformed our financial approach. Thanks to their sharp expertise, we significantly optimized our tax burden while gaining clearer visibility into our performance.",
+        "author": "Mr. Durand",
+        "role": "CEO, industrial SME",
+        "initials": "JD"
+      },
+      {
+        "quote": "A responsive, available team with exemplary rigor. Since entrusting them with our accounting, we can fully focus on our core business.",
+        "author": "Ms. Laurent",
+        "role": "Managing Director, services company",
+        "initials": "ML"
+      },
+      {
+        "quote": "The support during our company formation was impeccable. Helpful and available professionals who anticipated every step with clarity.",
+        "author": "Mr. & Ms. Favre",
+        "role": "Founders, tech start-up",
+        "initials": "FF"
+      }
+    ]
+  },
+  "faq": {
+    "overline": "Frequently asked questions",
+    "titleMain": "Your questions,",
+    "titleAccent": "our answers",
+    "subtitle": "Everything you need to know before entrusting us with your file.",
+    "items": [
+      {
+        "question": "How much does a tax return cost?",
+        "answer": "Our fees depend on the complexity of your tax situation and the type of return involved (individual, company, estate). We systematically provide a transparent quote before any engagement. Feel free to contact us for a no-commitment preliminary meeting."
+      },
+      {
+        "question": "What documents do I need to provide?",
+        "answer": "The list varies depending on your profile, but generally includes: salary certificates, bank and pension statements, insurance attestations, property deeds and all documents relating to your income and deductions. After an initial discussion, we will send you a precise, personalised list."
+      },
+      {
+        "question": "How long does processing take?",
+        "answer": "For a standard tax return, allow an average of 2 to 4 weeks after receipt of all documents. More complex cases are subject to a timeline agreed with you in advance. We keep you informed at every key stage of the process."
+      },
+      {
+        "question": "Can I schedule an appointment?",
+        "answer": "Absolutely. We offer in-office meetings in Geneva or Lausanne, as well as video consultations. The first meeting is free of charge and gives you the opportunity to explain your situation at ease. Contact us via our form or by phone to arrange a suitable time."
+      },
+      {
+        "question": "Is it confidential?",
+        "answer": "Confidentiality is a fundamental principle of our profession. All information you share with us is protected by professional secrecy and handled with the utmost discretion. Your data is never shared with third parties without your explicit consent."
+      }
+    ]
+  },
+  "about": {
+    "overline": "The firm",
+    "title1": "About",
+    "title2": "us",
+    "subtitle": "Founded by passionate professionals from French-speaking Switzerland, SRD Partners is much more than a fiduciary firm: it is a long-term committed partner.",
+    "missionOverline": "Our mission",
+    "missionTitle": "Free entrepreneurs from administrative complexity",
+    "missionP1": "At SRD Partners, our mission is simple: help you focus on your core business while we look after the financial, tax and administrative health of your company.",
+    "missionP2": "Founded more than 15 years ago in Geneva, our firm supports SMEs, start-ups, independent professionals and families throughout French-speaking Switzerland. Our approach combines top-level technical expertise with a strong human relationship.",
+    "missionP3": "We are not just service providers: we are your partners, present at every key stage of your business life.",
+    "missionCta": "Book an appointment",
+    "stats": {
+      "years": "Years of experience",
+      "clients": "Clients supported",
+      "experts": "Experts at your service",
+      "offices": "Offices in French-speaking Switzerland"
+    },
+    "valuesOverline": "What guides us",
+    "valuesTitle": "Our core values",
+    "values": [
+      {
+        "title": "Rigor",
+        "description": "Every file is handled with the same level of standards. Accuracy is non-negotiable."
+      },
+      {
+        "title": "Proximity",
+        "description": "We know you by your first name. You have a dedicated contact, available and responsive."
+      },
+      {
+        "title": "Independence",
+        "description": "Our advice is objective and given solely in your best interest, with no conflict of interest."
+      },
+      {
+        "title": "Sustainability",
+        "description": "We build long-term relationships based on trust and transparency."
+      }
+    ]
+  },
+  "team": {
+    "overline": "Our team",
+    "title": "Experts who listen",
+    "subtitle": "Seasoned professionals, committed to their work and to the client relationship.",
+    "members": [
+      {
+        "name": "Sophie Reinhart",
+        "role": "Founding Partner – Certified Accountant",
+        "bio": "Graduated in business economics, Sophie leads the firm with 18 years of experience in audit and financial advisory for SMEs in French-speaking Switzerland.",
+        "initials": "SR"
+      },
+      {
+        "name": "David Marchand",
+        "role": "Partner – Tax & Legal Advisory",
+        "bio": "Law graduate and certified tax expert, David supports clients in optimizing their tax structure and in business succession projects.",
+        "initials": "DM"
+      },
+      {
+        "name": "Isabelle Chopard",
+        "role": "Head of Accounting",
+        "bio": "With over 10 years of experience, Isabelle ensures the accuracy and compliance of our clients' financial statements with a constant attention to detail.",
+        "initials": "IC"
+      },
+      {
+        "name": "Raphaël Torres",
+        "role": "HR & Payroll Consultant",
+        "bio": "An HR specialist, Raphaël manages personnel files and ensures our clients' social compliance with rigor and discretion.",
+        "initials": "RT"
+      }
+    ]
+  },
+  "contact": {
+    "overline": "Let’s stay in touch",
+    "title1": "Contact",
+    "title2": "us",
+    "subtitle": "Our team is available Monday to Friday. We commit to replying within 24 business hours.",
+    "coordsOverline": "Details",
+    "coordsTitle": "Find us",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "mainOfficeLabel": "Head office",
+    "lausanneOfficeLabel": "Lausanne office",
+    "hours": "Mon–Fri: 8:00–18:00",
+    "country": "Switzerland",
+    "form": {
+      "overline": "Contact",
+      "title": "Let’s talk about your project",
+      "subtitle": "Fill out the form below and we will get back to you within 24 business hours.",
+      "fullName": "Full name *",
+      "company": "Company",
+      "email": "Email address *",
+      "phone": "Phone",
+      "subject": "Subject *",
+      "subjectDefault": "Select a subject…",
+      "message": "Message *",
+      "required": "* Required fields",
+      "submit": "Send message",
+      "submitting": "Sending…",
+      "successTitle": "Message sent!",
+      "successMsg": "Thank you for your message. Our team will contact you shortly.",
+      "sendAnother": "Send another message",
+      "subjects": {
+        "accounting": "Accounting & Tax",
+        "consulting": "Management consulting",
+        "audit": "Audit & Review",
+        "patrimony": "Wealth planning",
+        "creation": "Company formation",
+        "hr": "HR & Payroll",
+        "other": "Other"
+      },
+      "errors": {
+        "name": "Your name is required.",
+        "email": "Your email address is required.",
+        "emailInvalid": "Invalid email address.",
+        "subject": "Subject is required.",
+        "message": "Your message is required."
+      },
+      "placeholders": {
+        "name": "Sophie Dupont",
+        "company": "My Company LLC",
+        "email": "sophie@example.ch",
+        "phone": "+41 79 000 00 00",
+        "message": "Briefly describe your needs…"
+      }
+    }
+  },
+  "footer": {
+    "navigation": "Navigation",
+    "services": "Services",
+    "contact": "Contact",
+    "tagline": "Geneva • Lausanne • Switzerland",
+    "rights": "All rights reserved."
+  },
+  "meta": {
+    "homeTitle": "SRD Partners Ltd – Fiduciary & Business Advisory in Geneva",
+    "homeDescription": "Fiduciary firm in Geneva and Lausanne: accounting, taxation, audit, management consulting and company formation. SRD Partners supports SMEs in French-speaking Switzerland.",
+    "servicesTitle": "Our Services – SRD Partners Ltd",
+    "servicesDescription": "Discover all our fiduciary services: accounting, taxation, audit, wealth planning, company formation and HR & payroll management.",
+    "aboutTitle": "About – SRD Partners Ltd",
+    "aboutDescription": "Meet the team and values of SRD Partners, your trusted fiduciary firm in French-speaking Switzerland for over 15 years.",
+    "contactTitle": "Contact – SRD Partners Ltd",
+    "contactDescription": "Contact SRD Partners for all your fiduciary needs. Our team is available in Geneva and Lausanne Monday to Friday.",
+    "titleTemplate": "%s | SRD Partners"
+  },
+  "brand": {
+    "name": "SRD Partners",
+    "legal": "SRD Partners Ltd",
+    "baseline": "Your trusted partner for management, taxation and the growth of your business in French-speaking Switzerland."
+  }
+}

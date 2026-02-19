@@ -1,0 +1,184 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─────────────────────────────────────────
+   CSS Custom Properties
+───────────────────────────────────────── */
+:root {
+  --slant-h: 4rem;   /* hauteur du biseau de section */
+}
+
+@media (max-width: 640px) {
+  :root {
+    --slant-h: 2rem;
+  }
+}
+
+/* ─────────────────────────────────────────
+   Base
+───────────────────────────────────────── */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    /* Rendu de police optimisé — critique pour Manrope et Playfair Display */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    /* NE PAS mettre overflow-x:hidden ici — cela casse position:fixed de GSAP
+       (html overflow-x:hidden crée un nouveau scroll container) */
+  }
+
+  body {
+    @apply bg-cream text-ink font-body;
+    font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
+    /* NE PAS mettre overflow-x:hidden ici non plus — même raison que html.
+       Le débordement horizontal est géré par overflow:hidden sur chaque section. */
+  }
+
+  /* H1, H2 : Playfair Display — serif éditorial, présence et hiérarchie */
+  h1, h2 {
+    @apply font-display;
+    font-feature-settings: 'kern' 1, 'liga' 1, 'dlig' 1;
+  }
+
+  /* H3, H4 : Manrope — sans-serif neutre, lisible, subordonné */
+  h3, h4 {
+    @apply font-body font-semibold;
+  }
+
+  /* Focus visible — accessibilité clavier */
+  *:focus-visible {
+    @apply outline-2 outline-offset-2 outline-primary-500;
+  }
+
+  /* Sélection de texte */
+  ::selection {
+    background-color: theme('colors.gold.pale');
+    color: theme('colors.navy.DEFAULT');
+  }
+}
+
+/* ─────────────────────────────────────────
+   Composants utilitaires
+───────────────────────────────────────── */
+@layer components {
+  /* Conteneur principal */
+  .container-main {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Étiquette de section (overline) — crimson, uppercase, très espacé */
+  .section-label {
+    @apply inline-block text-[11px] tracking-[0.22em] uppercase font-body font-semibold text-gold mb-3;
+  }
+
+  /* Titre de section H2 — Playfair léger, espacement raffiné */
+  .section-title {
+    @apply font-display text-3xl sm:text-4xl lg:text-5xl font-normal text-navy leading-[1.15] tracking-[-0.01em];
+  }
+
+  /* Sous-titre de section */
+  .section-subtitle {
+    @apply font-body text-base sm:text-lg text-muted mt-4 max-w-2xl leading-relaxed;
+  }
+
+  /* ── Bouton principal — crimson, pill, hover plus foncé ── */
+  .btn-primary {
+    @apply inline-flex items-center gap-2
+           px-7 py-3.5
+           bg-gold text-white font-body font-semibold text-[13px] tracking-[0.04em]
+           rounded-full
+           shadow-gold
+           transition-all duration-300 ease-smooth
+           hover:bg-gold-dark hover:shadow-none hover:-translate-y-0.5
+           focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold;
+  }
+
+  /* ── Bouton secondaire — outline violet (primary) ── */
+  .btn-outline {
+    @apply inline-flex items-center gap-2
+           px-7 py-3.5
+           border border-primary-500 text-primary-500 font-body font-semibold text-[13px] tracking-[0.04em]
+           rounded-full
+           transition-all duration-300 ease-smooth
+           hover:bg-primary-500 hover:text-white hover:-translate-y-0.5
+           focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500;
+  }
+
+  /* ── Bouton outline (version sombre — sur fond navy) ── */
+  .btn-outline-dark {
+    @apply inline-flex items-center gap-2
+           px-7 py-3.5
+           border border-white/40 text-white font-body font-semibold text-[13px] tracking-[0.04em]
+           rounded-full
+           transition-all duration-300 ease-smooth
+           hover:border-white hover:bg-white/10 hover:-translate-y-0.5
+           focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white;
+  }
+
+  /* Carte de base */
+  .card-base {
+    @apply bg-white rounded-xl border border-black/[0.05] shadow-card
+           transition-all duration-300 ease-smooth
+           hover:-translate-y-1 hover:shadow-card-hover;
+  }
+}
+
+/* ─────────────────────────────────────────
+   Animations
+───────────────────────────────────────── */
+@layer utilities {
+  .animate-fade-up {
+    animation: fadeUp 0.6s ease both;
+  }
+
+  @keyframes fadeUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .delay-100 { animation-delay: 100ms; }
+  .delay-200 { animation-delay: 200ms; }
+  .delay-300 { animation-delay: 300ms; }
+  .delay-400 { animation-delay: 400ms; }
+  .delay-500 { animation-delay: 500ms; }
+  .delay-600 { animation-delay: 600ms; }
+}
+
+/* ─────────────────────────────────────────
+   Dégradé de fond du Hero
+   Violet nuit profond + lueur crimson subtile
+───────────────────────────────────────── */
+.hero-gradient {
+  background:
+    radial-gradient(ellipse at 70% 25%, rgba(194, 18, 69, 0.14) 0%, transparent 55%),
+    radial-gradient(ellipse at 20% 80%, rgba(45, 26, 74, 0.50) 0%, transparent 50%),
+    linear-gradient(135deg, #1A1028 0%, #221438 50%, #1A1028 100%);
+}
+
+/* Texture grain subtile pour le hero */
+.hero-grain::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 256px 256px;
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+/* Ligne décorative crimson */
+.gold-line {
+  display: inline-block;
+  width: 3rem;
+  height: 2px;
+  background-color: theme('colors.gold.DEFAULT');
+}
