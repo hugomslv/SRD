@@ -220,7 +220,7 @@ export function ProcessSection({ t, slantFill }: ProcessSectionProps) {
                       i < activeStep
                         ? 'w-8 h-8 text-[11px] bg-primary-500/70 text-white'
                         : i === activeStep
-                          ? 'w-11 h-11 text-[13px] bg-primary-500 text-white shadow-[0_0_0_5px_rgba(121,42,130,0.30)]'
+                          ? 'w-11 h-11 text-[13px] bg-primary-500 text-white shadow-[0_0_0_5px_rgba(48,27,74,0.30)]'
                           : 'w-8 h-8 text-[11px] bg-white/10 text-white/35',
                     )}
                   >
@@ -283,4 +283,3 @@ export function ProcessSection({ t, slantFill }: ProcessSectionProps) {
     </section>
   )
 }
-

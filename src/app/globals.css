@@ -9,9 +9,9 @@
   --slant-h: 4rem;   /* hauteur du biseau de section */
 
   /* Tokens RGB — permettent rgba() dans les gradients sans hardcoder les valeurs */
-  --primary-950-rgb: 34, 17, 38;   /* #221126 */
-  --primary-900-rgb: 50, 25, 58;   /* #32193A */
-  --primary-500-rgb: 121, 42, 130; /* #792A82 — violet logo */
+  --primary-950-rgb: 14, 8, 22;    /* #0E0816 */
+  --primary-900-rgb: 21, 12, 33;   /* #150C21 */
+  --primary-500-rgb: 48, 27, 74;   /* #301B4A — violet logo */
   --gold-rgb:        151, 20, 79;  /* #97144F — crimson accent */
   --cta-rgb: 138, 37, 72;          /* rgb(138, 37, 72) */
   --cta-hover-rgb: 118, 31, 62;    /* darker hover */
@@ -200,8 +200,8 @@
 .hero-gradient {
   background:
     radial-gradient(ellipse at 70% 25%, rgb(151, 20, 79, 0.14) 0%, transparent 55%),
-    radial-gradient(ellipse at 20% 80%, rgba(45, 26, 74, 0.50) 0%, transparent 50%),
-    linear-gradient(135deg, #792A82 0%, #221438 50%, #792A82 100%);
+    radial-gradient(ellipse at 20% 80%, rgba(48, 27, 74, 0.50) 0%, transparent 50%),
+    linear-gradient(135deg, #301B4A 0%, #1C102B 50%, #301B4A 100%);
 }
 
 /* Texture grain subtile pour le hero */
@@ -353,5 +353,4 @@
     overflow: hidden;
   }
 }
-
 

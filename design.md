@@ -30,7 +30,7 @@
 |----------------|-----|-------|
 | `bg-cream` | `#F8F9FC` | Fond section principale (cool near-white) |
 | `bg-stone` | `#D2C9D6` | Fond section alternée (cool light gray) |
-| `bg-navy` / `bg-navy` | `#792A82` | Fond sombre — hero, footer, sections nuit |
+| `bg-navy` / `bg-navy` | `#301B4A` | Fond sombre — hero, footer, sections nuit |
 | `text-gold` / `bg-gold` | `#97144F` | Alias accent crimson — CTA, overlines, séparateurs |
 | `text-gold-light` | `#E84272` | Hover CTA, version claire |
 | `text-gold-pale` / `bg-gold-pale` | `#FFF0F4` | Fond très subtil teinté crimson |
@@ -40,17 +40,17 @@
 ### Échelle Primary — Violet (lettres SRD du logo)
 
 ```
-primary-50   #F6EFFE  — Fond teinté très clair
-primary-100  #EBDFFC  — Fond léger
-primary-200  #D5BEF9  — Hover état fond
-primary-300  #B68BF3  — Accents légers
-primary-400  #9557E8  — Intermédiaire
-primary-500  #7B2FB5  ← VALEUR LOGO — titles, liens, highlights
-primary-600  #6926A0  — Hover texte
-primary-700  #561E85  — Active state
-primary-800  #43176A  — Très sombre
-primary-900  #31104F  — Near-black violet
-primary-950  #1F0932  — Fond alternatif sombre
+primary-50   #F5F4F6  — Fond teinté très clair
+primary-100  #EBE9ED  — Fond léger
+primary-200  #D6D2DB  — Hover état fond
+primary-300  #B8B1C1  — Accents légers
+primary-400  #8F839D  — Intermédiaire
+primary-500  #301B4A  ← VALEUR LOGO — titles, liens, highlights
+primary-600  #2A1841  — Hover texte
+primary-700  #231436  — Active state
+primary-800  #1C102B  — Très sombre
+primary-900  #150C21  — Near-black violet
+primary-950  #0E0816  — Fond alternatif sombre
 ```
 
 **Usage primary :** titres, liens, btn-outline border/text, badges, highlights sur sections claires.
@@ -184,7 +184,7 @@ hover:         -translate-y-1 + shadow-card-hover
 | Classe | Couleur | Forme | Usage |
 |--------|---------|-------|-------|
 | `.btn-primary` | bg-gold (#97144F) + white text | `rounded-full` (pill) | CTA principal |
-| `.btn-outline` | border/text primary-500 (#7B2FB5) | `rounded-full` (pill) | Action secondaire sur fond clair |
+| `.btn-outline` | border/text primary-500 (#301B4A) | `rounded-full` (pill) | Action secondaire sur fond clair |
 | `.btn-outline-dark` | border/text white/40→white | `rounded-full` (pill) | Action secondaire sur fond sombre |
 
 ```css
@@ -260,7 +260,7 @@ Alternance des directions : `left` → `right` → `left` → `right`
 |-----------|-----|-----------|
 | `BG.cream` | `#F8F9FC` | Blanc cool — fond principal |
 | `BG.stone` | `#D2C9D6` | Gris cool clair — fond alterné |
-| `BG.navy` | `#792A82` | Violet nuit profond — sombre |
+| `BG.navy` | `#301B4A` | Violet nuit profond — sombre |
 
 ---
 
@@ -297,8 +297,8 @@ Définies dans `globals.css` :
 /* ── Couleurs ─────────────────── */
 --color-cream:          #F8F9FC;
 --color-stone:          #D2C9D6;
---color-navy:           #792A82;
---color-primary:        #7B2FB5;
+--color-navy:           #301B4A;
+--color-primary:        #301B4A;
 --color-primary-dark:   #31104F;
 --color-accent:         #97144F;
 --color-accent-light:   #E84272;

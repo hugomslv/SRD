@@ -43,9 +43,9 @@ const config: Config = {
 
         // Fond sombre — violet nuit profond (du logo)
         navy: {
-          DEFAULT: '#792A82',
-          800:     '#221438',
-          700:     '#2D1A4A',
+          DEFAULT: '#301B4A',
+          800:     '#1C102B',
+          700:     '#231436',
         },
 
         // Alias sémantique accent/crimson → utilisé pour CTA, overlines, séparateurs
@@ -65,17 +65,17 @@ const config: Config = {
 
         // ── Échelle primaire complète (violet logo SRD)
         primary: {
-          50:  '#F8F5F9',
-          100: '#F1EBF2',
-          200: '#E2D7E6',
-          300: '#CDB9D3',
-          400: '#B091B9',
-          500: '#792A82', // rgb(121, 42, 130)
-          600: '#653273',
-          700: '#542960',
-          800: '#43214D',
-          900: '#32193A',
-          950: '#221126',
+          50:  '#F5F4F6',
+          100: '#EBE9ED',
+          200: '#D6D2DB',
+          300: '#B8B1C1',
+          400: '#8F839D',
+          500: '#301B4A', // rgb(48, 27, 74)
+          600: '#2A1841',
+          700: '#231436',
+          800: '#1C102B',
+          900: '#150C21',
+          950: '#0E0816',
         },
 
         // ── Échelle accent complète (crimson arrow du logo)

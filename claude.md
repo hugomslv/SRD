@@ -44,9 +44,9 @@ Les couleurs, ombres et polices sont définies dans le thème Tailwind — ne pa
 |---------------------|------------|------------------------------------------|
 | `bg-cream`          | `#F8F9FC`  | Fond section principale (cool near-white)|
 | `bg-stone`          | `#D2C9D6`  | Fond section alternée (cool light gray)  |
-| `bg-navy`           | `#792A82`  | Fond sombre — hero, footer               |
+| `bg-navy`           | `#301B4A`  | Fond sombre — hero, footer               |
 | `text-gold` / `bg-gold` | `#97144F` | Accent crimson (arrow logo) — CTA, overlines |
-| `text-primary-500`  | `#7B2FB5`  | Violet logo SRD — titres, btn-outline    |
+| `text-primary-500`  | `#301B4A`  | Violet logo SRD — titres, btn-outline    |
 | `text-ink`          | `#1A0F2A`  | Texte principal dark                     |
 | `text-muted`        | `#5A6080`  | Texte secondaire cool                    |
 | `shadow-premium`    | multicouche| Cartes premium                           |

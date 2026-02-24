@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
 import { getMessages, isValidLocale, defaultLocale, type Locale } from '@/lib/i18n'
-import { services, featureIcons, BG } from '@/lib/siteData'
+import { services, BG } from '@/lib/siteData'
 import { Section } from '@/components/Section'
 import { PremiumHeading, Accent } from '@/components/PremiumHeading'
 import { FeatureCard } from '@/components/FeatureCard'
@@ -57,7 +57,7 @@ export default async function HomePage({
         {/* L1 — Dégradé violet profond */}
         <div
           className="absolute inset-0 pointer-events-none"
-          style={{ background: 'linear-gradient(135deg, #221126 0%, #32193A 60%, #43214D 100%)' }}
+          style={{ background: 'linear-gradient(135deg, #0E0816 0%, #150C21 60%, #1C102B 100%)' }}
           aria-hidden="true"
         />
 
@@ -146,22 +146,29 @@ export default async function HomePage({
 
       {/* ── Features — Notre engagement ─────────────────────────────────── */}
       <Section bg="stone" slant="right" slantFill={BG.navy}>
-        <div className="text-center mb-16 sm:mb-20">
+        {/* Ligne de signature — haut */}
+        <div className="h-px bg-gold/70 mb-14 sm:mb-20" aria-hidden="true" />
+
+        <div className="text-center mb-14 sm:mb-20">
           <span className="section-label">{t.features.overline}</span>
           <PremiumHeading as="h2" size="section" color="dark" className="mt-2">
             {t.features.titleMain} <Accent>{t.features.titleAccent}</Accent>
           </PremiumHeading>
         </div>
-        <ScrollReveal className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+
+        <ScrollReveal className="grid grid-cols-1 md:grid-cols-3 gap-14 lg:gap-20">
           {t.features.items.map((item, i) => (
             <FeatureCard
               key={item.title}
-              icon={featureIcons[i]}
+              index={i}
               title={item.title}
               description={item.description}
             />
           ))}
         </ScrollReveal>
+
+        {/* Ligne de signature — bas */}
+        <div className="h-px bg-gold/70 mt-14 sm:mt-20" aria-hidden="true" />
       </Section>
 
       {/* ── Services — Aperçu des domaines ──────────────────────────────── */}

@@ -1,33 +1,23 @@
-import { Icon } from '@/lib/icons'
-import type { IconName } from '@/lib/siteData'
-
 interface FeatureCardProps {
-  icon: IconName
+  index: number
   title: string
   description: string
 }
 
-export function FeatureCard({ icon, title, description }: FeatureCardProps) {
+export function FeatureCard({ index, title, description }: FeatureCardProps) {
   return (
-    <article
-      className="group flex flex-col gap-6 bg-white rounded-2xl p-9 sm:p-11
-                 border border-black/[0.04] shadow-premium transition-all duration-300 ease-out
-                 hover:-translate-y-1.5 hover:shadow-premium-hover hover:border-black/[0.07]"
-    >
-      {/* Icône */}
-      <div className="w-12 h-12 rounded-2xl bg-gold/[0.08] text-gold flex items-center justify-center flex-shrink-0 transition-colors duration-300 group-hover:bg-gold/[0.14]">
-        <Icon name={icon} size={22} strokeWidth={1.5} />
-      </div>
-
-      {/* Texte */}
-      <div className="flex flex-col gap-3">
-        <h3 className="font-body text-xl font-semibold text-ink leading-[1.25] tracking-[-0.015em]">
-          {title}
-        </h3>
-        {/* Trait doré — raccourci, non animé sur FeatureCard */}
-        <div className="h-px w-7 bg-gold/40 rounded-full transition-all duration-500 ease-out group-hover:w-12 group-hover:bg-gold/65" />
-        <p className="font-body text-sm text-muted leading-[1.72]">{description}</p>
-      </div>
+    <article className="flex flex-col gap-5">
+      <p
+        className="font-body text-[11px] font-semibold text-gold tracking-[0.20em] uppercase select-none"
+        aria-hidden="true"
+      >
+        0{index + 1}
+      </p>
+      <h3 className="font-display text-2xl font-light text-ink leading-[1.28] tracking-[-0.01em]">
+        {title}
+      </h3>
+      <div className="h-px w-8 bg-gold/40" aria-hidden="true" />
+      <p className="font-body text-sm text-muted leading-[1.75]">{description}</p>
     </article>
   )
 }

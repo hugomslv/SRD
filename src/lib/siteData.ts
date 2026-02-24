@@ -6,7 +6,7 @@
 export const BG = {
   cream:   '#F8F9FC',
   stone:   '#D2C9D6',
-  navy:    '#792A82',
+  navy:    '#301B4A',
   mineral: '#D2C9D6',
 } as const
 
@@ -21,6 +21,8 @@ export type IconName =
   | 'rocket'
   | 'users'
   | 'linkedin'
+  | 'instagram'
+  | 'facebook'
 
 export const services = [
   { id: 'comptabilite-fiscalite',  icon: 'calculator' as IconName },
@@ -28,8 +30,6 @@ export const services = [
   { id: 'gestion-administrative',  icon: 'shield'     as IconName },
   { id: 'gestion-immobiliere',     icon: 'home'       as IconName },
 ] as const
-
-export const featureIcons: IconName[] = ['shield', 'handshake', 'lock']
 
 export const activityDomains = [
   { id: 'revision',       icon: 'search'     as IconName },
@@ -51,7 +51,9 @@ export const contactInfo = {
 } as const
 
 export const socials = [
-  { label: 'LinkedIn', href: '#', icon: 'linkedin' as IconName },
+  { label: 'LinkedIn',  href: '#', icon: 'linkedin'  as IconName },
+  { label: 'Instagram', href: '#', icon: 'instagram' as IconName },
+  { label: 'Facebook',  href: '#', icon: 'facebook'  as IconName },
 ] as const
 
 
